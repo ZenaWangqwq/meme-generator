@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 550px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 20px;
+}
+
+.logo {
+    width: 31px;
+    margin-right: 6px;
+}
+
+.project-name {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 20.7482px;
+    line-height: 24px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+
+.title {
+    font-family: 'Inter', normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.meme-components {
+    padding: 36px;
+}
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-input{
+    font-family: "Karla", sans-serif;
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button {
+    font-family: "Karla", sans-serif;
+    width: 477px;
+    height: 40px;
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
