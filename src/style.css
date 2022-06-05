@@ -72,3 +72,25 @@ body {
 .meme-image {
     max-width: 100%;
 }
+
+.top-text, .bottom-text {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.top-text {
+    position: absolute;
+    height: 39px;
+    left: 210px;
+    top: 210px;
+}
+
+.bottom-text {
+    position: absolute;
+    height: 39px;
+    left: 200px;
+    top: 440px;
+}
