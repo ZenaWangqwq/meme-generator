@@ -41,6 +41,7 @@ body {
 
 .meme-components {
     padding: 36px;
+    position: relative;
 }
 
 .form{
@@ -70,27 +71,40 @@ body {
 }
 
 .meme-image {
+    margin-top: 20px;
     max-width: 100%;
+    border-radius: 3px;
 }
 
 .top-text, .bottom-text {
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
+    position: absolute;
+    width: 80%;
     text-align: center;
+    left: 50%;
+    transform: translate(-50%, 140%);
+    margin: 100px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
 }
 
 .top-text {
-    position: absolute;
-    height: 39px;
-    left: 210px;
-    top: 210px;
+    top: 0;
 }
 
 .bottom-text {
-    position: absolute;
-    height: 39px;
-    left: 200px;
-    top: 440px;
+    bottom: 0;
 }
